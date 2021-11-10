@@ -1,0 +1,11 @@
+input {
+    display: flex;
+    font-size: 20px;
+    position: center;
+    border-radius: 5px;
+    width: 300px;
+    padding: 12px;
+    margin: auto;
+    transform: translate(0%, 30%);
+}
+

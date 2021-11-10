@@ -1,0 +1,58 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+.content-carousel{
+    background:
+            radial-gradient(
+                    rgb(96, 176, 5),
+                    #1a2bc3
+            ),
+            repeating-linear-gradient(
+                    transparent 0,
+                    rgb(133, 128, 37) 3px,
+                    transparent 6px
+            );
+    background-blend-mode: overlay;
+    background-size: cover;
+    width: 180px;
+    height: 330px;
+    color: #fdfdfd;
+    margin-top: 40px;
+    border-radius: 10px;
+    font-size: 13px;
+    opacity: 0.85;
+    position: relative;
+    top: 0;
+    left: 0;
+
+}
+.header-item{
+    font-size: 15px;
+}
+.content-front{
+    margin-left: 15px;
+}
+
+.content-back{
+    margin-left: 180px;
+}
+.fa-thumbs-up{
+    bottom: 0;
+    position: relative;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .content-carousel {
+        width: 135px;
+        height: 315px;
+
+
+    }
+
+}
+
+
+
+

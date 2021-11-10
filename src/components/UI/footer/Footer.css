@@ -1,0 +1,22 @@
+.footer-content{
+    width: 100%;
+    height: 110px;
+    background-image: url("../main/Character/double-bubble-dark.png");
+}
+
+.name{
+    color: white;
+    display: flex;
+    justify-content: center;
+    transform: translate(0%, 50%);
+
+}
+
+.name-company{
+    display: flex;
+    color: white;
+    justify-content: center;
+    transform: translate(0%, 50%);
+    font-size: 30px;
+
+}
